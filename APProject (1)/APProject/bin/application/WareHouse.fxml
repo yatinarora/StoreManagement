@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d8d9da" height="387.0" layoutX="22.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" width="578.0" />
+      <Label layoutX="39.0" layoutY="14.0" prefHeight="35.0" prefWidth="150.0" text="Warehouse">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="62.0" layoutY="103.0" mnemonicParsing="false" onAction="#openupdateproduct" prefHeight="28.0" prefWidth="132.0" text="Update Product">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="62.0" layoutY="149.0" mnemonicParsing="false" onAction="#openAddProduct" prefHeight="28.0" prefWidth="138.0" text="Add Product">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="64.0" layoutY="198.0" mnemonicParsing="false" onAction="#openWarehousesearch" text="Search Product in a store">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="62.0" layoutY="243.0" mnemonicParsing="false" onAction="#openWarehouseInventory" prefHeight="30.0" prefWidth="138.0" text="Check Inventory">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="62.0" layoutY="291.0" mnemonicParsing="false" onAction="#openDeleteProduct" prefHeight="35.0" prefWidth="132.0" text="Delete Product" />
+      <Button layoutX="66.0" layoutY="343.0" mnemonicParsing="false" onAction="#openMANAGE" prefHeight="35.0" prefWidth="144.0" text="Manage Catrgory" />
+      <Button layoutX="396.0" layoutY="386.0" mnemonicParsing="false" onAction="#openMainmenu" text="Back" />
+      <Button layoutX="479.0" layoutY="386.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="49.0" text="Exit" />
+   </children>
+</AnchorPane>

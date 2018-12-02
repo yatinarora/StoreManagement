@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d8d9da" height="569.0" layoutX="14.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="576.0" />
+      <TableView layoutX="118.0" layoutY="37.0" prefHeight="249.0" prefWidth="309.0">
+        <columns>
+          <TableColumn prefWidth="94.0" text="Product Id" />
+          <TableColumn prefWidth="120.0" text="Product Name" />
+            <TableColumn prefWidth="94.0" text="Quantity" />
+        </columns>
+      </TableView>
+      <Label layoutX="83.0" layoutY="340.0" prefHeight="17.0" prefWidth="141.0" text="Update Product">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="397.0" prefHeight="17.0" prefWidth="89.0" text="Enter Product">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="430.0" prefHeight="27.0" prefWidth="89.0" text="New Quantity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="235.0" layoutY="395.0" />
+      <TextField layoutX="235.0" layoutY="431.0" />
+      <Button layoutX="418.0" layoutY="524.0" mnemonicParsing="false" onAction="#openEnduserlogin" text="Back" />
+   </children>
+</AnchorPane>

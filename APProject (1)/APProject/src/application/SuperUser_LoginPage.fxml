@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SuperuserloginController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d8d9da" height="481.0" layoutX="29.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" width="608.0" />
+      <Label layoutX="59.0" layoutY="59.0" text="Super User">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="338.0" layoutX="54.0" layoutY="107.0" stroke="BLACK" strokeType="INSIDE" width="559.0" />
+      <Label layoutX="80.0" layoutY="147.0" text="Enter Your Credentials">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="205.0" prefHeight="21.0" prefWidth="63.0" text="Login Id">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="258.0" text="Password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf1" layoutX="212.0" layoutY="203.0" />
+      <TextField fx:id="tf2" layoutX="212.0" layoutY="256.0" />
+      <Button layoutX="205.0" layoutY="299.0" mnemonicParsing="false" text="Forgot Password" />
+      <Button layoutX="348.0" layoutY="299.0" mnemonicParsing="false" onAction="#opensuperstore" text="Submit" />
+      <Button layoutX="413.0" layoutY="463.0" mnemonicParsing="false" onAction="#openMainmenu" prefHeight="25.0" prefWidth="54.0" text="Back" />
+      <Button layoutX="483.0" layoutY="463.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="54.0" text="Exit" />
+   </children>
+</AnchorPane>
